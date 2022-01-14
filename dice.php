@@ -8,6 +8,7 @@ for ($i =0;  $i < $iterations;$i++){
 }
 
 $n =random_int(1, 6);
+
  
 foreach( $numbers as $number){
     echo "-un $number<br>\n";
@@ -16,3 +17,8 @@ foreach( $numbers as $number){
 
 
 echo "vous tiré un $n<br>\n";
+
+$n =random_int(1, 6);
+$n =random_int(1, 6);
+echo "vous tiré un $n1 un $n2  et un $n3<br>\n";
+
